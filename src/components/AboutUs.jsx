@@ -24,7 +24,7 @@ const AboutUs = () => {
 
         {/* Text Section */}
         <div className="lg:w-1/2 space-y-6 text-center lg:text-left">
-          <h3 className="text-5xl text-blue-600 font-bold">
+          <h3 className="text-4xl text-blue-600 font-bold">
             About Us
           </h3>
           <h2 className="text-3xl font-bold text-gray-800 leading-tight">
