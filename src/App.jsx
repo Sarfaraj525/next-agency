@@ -8,6 +8,7 @@ import AboutUs from './components/AboutUs'
 import Process from './components/Process'
 import Services from './components/Services'
 import Works from './components/Works'
+import PricingPlans from './components/PricingPlans'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <Process></Process>
       <Services></Services>
       <Works></Works>
+      <PricingPlans></PricingPlans>
       {/* <h1 className='text-red-500'>Vite + React</h1> */}
       
     
