@@ -10,6 +10,8 @@ import Services from './components/Services'
 import Works from './components/Works'
 import PricingPlans from './components/PricingPlans'
 import WhyPartnerWithUs from './components/WhyPartnerWithUs'
+import Testimonials from './components/Testimonials'
+import FAQ from './components/FAQ'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +26,8 @@ function App() {
       <Works></Works>
       <PricingPlans></PricingPlans>
       <WhyPartnerWithUs></WhyPartnerWithUs>
+      <Testimonials></Testimonials>
+      <FAQ></FAQ>
       {/* <h1 className='text-red-500'>Vite + React</h1> */}
       
     
