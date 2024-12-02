@@ -7,6 +7,7 @@ import Banner from './components/Banner'
 import AboutUs from './components/AboutUs'
 import Process from './components/Process'
 import Services from './components/Services'
+import Works from './components/Works'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <AboutUs></AboutUs>
       <Process></Process>
       <Services></Services>
+      <Works></Works>
       {/* <h1 className='text-red-500'>Vite + React</h1> */}
       
     
