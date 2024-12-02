@@ -23,7 +23,7 @@ const WhyPartnerWithUs = () => {
   return (
     <section id="why-us" className="py-16 bg-gray-100">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold text-gray-800 mb-6">Why Partner With Us?</h2>
+        <h2 className="text-4xl font-bold text-blue-600 mb-6">Why Partner With Us?</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div

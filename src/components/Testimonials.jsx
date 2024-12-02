@@ -28,7 +28,7 @@ const Testimonials = () => {
   return (
     <section id="testimonials" className="py-20 bg-gradient-to-r from-gray-100 to-gray-200">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-extrabold text-gray-800 mb-8">What Our Clients Say</h2>
+        <h2 className="text-4xl font-extrabold text-blue-600 mb-6">What Our Clients Say</h2>
         <p className="text-lg text-gray-600 mb-12">
           Hear what our valued clients have to say about their experience working with us.
         </p>
