@@ -6,16 +6,19 @@ const Services = () => {
       name: "Web Design",
       description: "We provide tailored solutions to help your brand shine.",
       bgImage: "url('https://i.postimg.cc/YCnBfNtR/Web-design.png')",
+      animation: "animate-slideInLeft", 
     },
     {
       name: "Branding",
       description: "Crafting exceptional brand identities for your success.",
       bgImage: "url('https://i.postimg.cc/LsdD9kwy/brand.png')",
+      animation: "animate-slideInUp", 
     },
     {
       name: "Digital Marketing",
       description: "Driving your business forward with innovative strategies.",
       bgImage: "url('https://i.postimg.cc/SKq91gwp/Digital-Marketing.png')",
+      animation: "animate-slideInRight", 
     },
   ];
 
@@ -32,14 +35,16 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="p-6 bg-cover bg-center shadow-md rounded-lg text-white flex flex-col justify-start"
+              className={`p-6 bg-cover bg-center shadow-md rounded-lg text-white flex flex-col justify-start ${service.animation}`}
               style={{
                 backgroundImage: service.bgImage,
                 height: "300px",
               }}
             >
-              <h3 className="text-2xl font-bold mb-4 text-white">{service.name}</h3>
-              {/* <p className="text-white text-xl">{service.description}</p> */}
+              <h3 className="text-2xl font-bold mb-4 text-white">
+                {service.name}
+              </h3>
+              <p className="text-white text-xl">{service.description}</p>
             </div>
           ))}
         </div>

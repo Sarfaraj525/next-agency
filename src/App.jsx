@@ -13,6 +13,7 @@ import WhyPartnerWithUs from './components/WhyPartnerWithUs'
 import Testimonials from './components/Testimonials'
 import FAQ from './components/FAQ'
 import ContactUs from './components/ContactUs'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,6 +31,7 @@ function App() {
       <Testimonials></Testimonials>
       <FAQ></FAQ>
       <ContactUs></ContactUs>
+      <Footer></Footer>
       {/* <h1 className='text-red-500'>Vite + React</h1> */}
       
     
