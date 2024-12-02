@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import Banner from './components/Banner'
 import AboutUs from './components/AboutUs'
 import Process from './components/Process'
+import Services from './components/Services'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Banner></Banner>
       <AboutUs></AboutUs>
       <Process></Process>
+      <Services></Services>
       {/* <h1 className='text-red-500'>Vite + React</h1> */}
       
     
