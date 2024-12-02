@@ -21,9 +21,16 @@ const WhyPartnerWithUs = () => {
   ];
 
   return (
-    <section id="why-us" className="py-16 bg-gray-100">
-      <div className="container mx-auto text-center">
+    <section
+      id="why-us"
+      className="py-16 bg-cover bg-center"
+      style={{ backgroundImage: `url('https://i.postimg.cc/T1XD4tzv/bg-partner.jpg')` }}
+    >
+      <div className="container mx-auto text-center bg-white bg-opacity-80 p-8 rounded-lg shadow-lg">
         <h2 className="text-4xl font-bold text-blue-600 mb-6">Why Partner With Us?</h2>
+        <p className="text-sm mb-6">
+          Partnering with us means gaining a reliable ally committed to your success.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div

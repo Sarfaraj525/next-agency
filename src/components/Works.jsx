@@ -20,10 +20,10 @@ const Works = () => {
   ];
 
   return (
-    <section id="works" className="py-16 bg-white">
+    <section id="works" className="py-16 bg-gray-100">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold text-blue-600 mb-6">Our Works</h2>
-        <p className="text-sm mb-8">Showcasing some of our best projects.</p>
+        <p className="text-sm mb-6">Showcasing some of our best projects.</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div

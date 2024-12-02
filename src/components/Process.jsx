@@ -23,9 +23,16 @@ const Process = () => {
   ];
 
   return (
-    <section id="process" className="py-16 bg-white">
+    <section
+      id="process"
+      className="py-16 bg-cover bg-center text-white"
+      style={{
+        backgroundImage: "url('https://i.postimg.cc/QM5x22yV/smooth-lines.jpg')",
+      }}
+    >
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold text-blue-600 mb-6">Our Process</h2>
+        <p className="text-sm mb-6 text-black">Simply discover, design & deliver.</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {steps.map((step, index) => (
             <div

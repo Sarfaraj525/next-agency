@@ -4,7 +4,7 @@ import about5 from "../assets/images/about/about5.jpg";
 
 const AboutUs = () => {
   return (
-    <section id="about" className="py-16 bg-gray-50">
+    <section id="about" className="py-16 bg-gray-100">
       <div className="container mx-auto flex flex-col lg:flex-row items-center">
         {/* Images Section */}
         <div className="lg:w-1/2 relative mb-10 lg:mb-0 flex justify-center">
@@ -34,7 +34,13 @@ const AboutUs = () => {
           We are dedicated to crafting digital solutions that combine stunning design with measurable impact. Our talented team of designers and developers works collaboratively to create innovative products that go beyond expectations.
           </p>
           <button className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-900 transition duration-200">
-            Get More Info
+            
+            <a
+                  href="#contact"
+                  className=""
+                >
+                 Get More Info
+                </a>
           </button>
         </div>
       </div>

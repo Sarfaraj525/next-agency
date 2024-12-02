@@ -43,9 +43,10 @@ const PricingPlans = () => {
   ];
 
   return (
-    <section id="pricing" className="py-16 bg-gray-50">
-      <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-center text-blue-600 mb-8">Affordable Design Solutions</h2>
+    <section id="pricing" className="py-16 bg-gray-100">
+      <div className="container mx-auto text-center">
+        <h2 className="text-4xl font-bold  text-blue-600 mb-6">Affordable Design Solutions</h2>
+        <p className="text-sm mb-6">Experience top-quality designs tailored to your needs without breaking the bank.</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {plans.map((plan, index) => (
             <div
